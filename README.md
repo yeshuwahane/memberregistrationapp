@@ -52,7 +52,5 @@ This project follows **Clean Architecture**, a design philosophy that divides th
    - Manages data sources (local database using Room).
    - Implements `Repository` interfaces defined in the Domain layer to handle data operations.
 
----
 
-## 📂 Project Structure
 
