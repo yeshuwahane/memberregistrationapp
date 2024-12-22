@@ -10,6 +10,10 @@ The **Member Registration App** is an Android application that allows users to r
 </p>
 
 
+Download Options:
+#### <a href="https://github.com/yeshuwahane/memberregistrationapp/releases/tag/Main"> Github Release<a>
+
+
 ## 🛠 Tech Stack
 
 ### 1. **Kotlin**
