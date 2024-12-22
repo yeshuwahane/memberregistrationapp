@@ -3,7 +3,7 @@ package com.yeshuwahane.memberregistrationapp.di
 import android.content.Context
 import androidx.room.Room
 import com.yeshuwahane.memberregistrationapp.data.datasource.MemberDao
-import com.yeshuwahane.memberregistrationapp.data.model.MemberDatabase
+import com.yeshuwahane.memberregistrationapp.data.datasource.MemberDatabase
 import com.yeshuwahane.memberregistrationapp.data.repositoryimpl.MemberRepositoryImpl
 import com.yeshuwahane.memberregistrationapp.domain.repository.MemberRepository
 import com.yeshuwahane.memberregistrationapp.domain.usecase.AddMemberUseCase

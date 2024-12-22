@@ -1,4 +1,4 @@
-package com.yeshuwahane.memberregistrationapp.presentation.addmembers
+package com.yeshuwahane.memberregistrationapp.presentation.features.addmembers
 
 import android.app.DatePickerDialog
 import androidx.compose.foundation.clickable

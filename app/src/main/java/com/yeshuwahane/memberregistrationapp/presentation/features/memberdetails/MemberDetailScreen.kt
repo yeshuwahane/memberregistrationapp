@@ -1,4 +1,4 @@
-package com.yeshuwahane.memberregistrationapp.presentation.memberdetails
+package com.yeshuwahane.memberregistrationapp.presentation.features.memberdetails
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column

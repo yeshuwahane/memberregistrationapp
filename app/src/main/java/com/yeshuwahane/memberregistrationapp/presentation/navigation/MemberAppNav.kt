@@ -6,9 +6,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.yeshuwahane.memberregistrationapp.presentation.addmembers.AddMemberScreen
-import com.yeshuwahane.memberregistrationapp.presentation.memberdetails.MemberDetailScreen
-import com.yeshuwahane.memberregistrationapp.presentation.memberlist.MemberListScreen
+import com.yeshuwahane.memberregistrationapp.presentation.features.addmembers.AddMemberScreen
+import com.yeshuwahane.memberregistrationapp.presentation.features.memberdetails.MemberDetailScreen
+import com.yeshuwahane.memberregistrationapp.presentation.features.memberlist.MemberListScreen
 
 
 @Composable

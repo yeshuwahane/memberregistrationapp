@@ -1,4 +1,4 @@
-package com.yeshuwahane.memberregistrationapp.presentation.memberlist
+package com.yeshuwahane.memberregistrationapp.presentation.features.memberlist
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
