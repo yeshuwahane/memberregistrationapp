@@ -11,16 +11,23 @@ import com.yeshuwahane.memberregistrationapp.domain.usecase.GetMembersUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
-
 
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
+
+    @Singleton
+    @Provides
+    fun provideApplicationContext(@ApplicationContext app: Context): Context {
+        return app
+    }
+
     @Provides
     @Singleton
-    fun provideDatabase(context: Context): MemberDatabase {
+    fun provideDatabase(@ApplicationContext context: Context): MemberDatabase {
         return Room.databaseBuilder(
             context,
             MemberDatabase::class.java,
