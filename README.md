@@ -2,6 +2,12 @@
 
 The **Member Registration App** is an Android application that allows users to register members and view their details. The app is designed using modern Android development practices, leveraging **Clean Architecture** to maintain scalability, maintainability, and testability.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/yeshuwahane/memberregistrationapp/refs/heads/main/screenshot1.png" width="280"/>
+<img src="https://github.com/yeshuwahane/memberregistrationapp/blob/main/screenshot3.png" width="280"/>
+<img src="https://github.com/yeshuwahane/memberregistrationapp/blob/main/screenshot2.png" width="280"/>
+
+</p>
 
 
 ## 🛠 Tech Stack
